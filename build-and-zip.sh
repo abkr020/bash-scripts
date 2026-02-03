@@ -54,3 +54,9 @@ ZIP_NAME="dist_$TIMESTAMP.zip"
 zip -r "$ZIP_NAME" "$DIST_DIR" > /dev/null
 
 echo "Zip created 🎉 → $ZIP_NAME"
+
+# ==============================
+# OPEN PROJECT FOLDER (WINDOWS)
+# ==============================
+echo "Opening project folder 📂"
+explorer.exe .
